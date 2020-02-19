@@ -101,11 +101,11 @@ void samplePins() {
   pinValues = 0;
   pinValues =  pinValues  | (digitalRead(PIN_5) << 0);
   pinValues =  pinValues  | (digitalRead(PIN_6) << 1);
-  pinValues =  pinValues  | (digitalRead(PIN_6) << 2);
-  pinValues =  pinValues  | (digitalRead(PIN_6) << 3);
-  pinValues =  pinValues  | (digitalRead(PIN_6) << 4);
-  pinValues =  pinValues  | (digitalRead(PIN_6) << 5);
-  pinValues =  pinValues  | (digitalRead(PIN_6) << 6);
+  pinValues =  pinValues  | (digitalRead(PIN_7) << 2);
+  pinValues =  pinValues  | (digitalRead(PIN_8) << 3);
+  pinValues =  pinValues  | (digitalRead(PIN_9) << 4);
+  pinValues =  pinValues  | (digitalRead(PIN_10) << 5);
+  pinValues =  pinValues  | (digitalRead(PIN_11) << 6);
 }
 
 void computeData(int currentChannel) {
